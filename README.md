@@ -1,13 +1,5 @@
 ## This project is now in maintenance mode. We cannot promise to review contributions. Please feel free to fork the project to apply any changes you might want to make.
 
-
-
-
-
-<p align="center">
-  <img width="200" src="https://docs.driftctl.com/img/driftctl_dark.svg" alt="driftctl">
-</p>
-
 <p align="center">
   <img src="https://circleci.com/gh/khulnasoft-lab/driftctl.svg?style=shield"/>
   <img src="https://goreportcard.com/badge/github.com/khulnasoft-lab/driftctl"/>
