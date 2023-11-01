@@ -1,0 +1,11 @@
+run:
+  go: '1.18'
+linters:
+  enable:
+    - exportloopref
+    - scopelint
+issues:
+  exclude-rules:
+    - path: _test\.go
+      linters:
+        - scopelint
