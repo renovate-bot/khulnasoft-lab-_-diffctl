@@ -10,7 +10,7 @@ terraform {
 
 module "iam_iam-user" {
   source                        = "terraform-aws-modules/iam/aws//modules/iam-user"
-  version                       = "3.7.0"
+  version                       = "3.16.0"
   name                          = "MODULE-USER"
   create_iam_access_key         = true  # default = true
   create_iam_user_login_profile = false # default = true
