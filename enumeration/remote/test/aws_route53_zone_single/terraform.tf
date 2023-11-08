@@ -1,5 +1,5 @@
 provider "aws" {
-  version = "3.5.0"
+  version = "3.76.1"
   region  = "eu-west-3"
 }
 resource "aws_route53_zone" "foobar" {
