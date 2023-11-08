@@ -1,0 +1,3 @@
+package google
+
+const GoogleComputeInstanceGroupManagerResourceType = "google_compute_instance_group_manager"
