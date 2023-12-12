@@ -195,7 +195,7 @@ jobs:
     environment:
         FUNCTION_NAME: driftctl-version
     docker:
-        - image: cimg/base:2021.04
+        - image: cimg/base:2021.12
     steps:
       - run:
           name: "Update Lambda version"
