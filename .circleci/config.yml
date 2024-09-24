@@ -11,7 +11,7 @@ only_maintainers: &only_maintainers
       ignore: /pull\/[0-9]+/
 orbs:
   prodsec: khulnasoft-lab/prodsec-orb@1.0
-  go: circleci/go@1.7.0
+  go: circleci/go@1.12.0
   khulnasoft-lab: khulnasoft-lab/khulnasoft-lab@1.1.2
   gh: circleci/github-cli@1.1.0
   slack: circleci/slack@4.12.5
