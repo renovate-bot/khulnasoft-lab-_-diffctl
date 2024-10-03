@@ -145,7 +145,7 @@ jobs:
   release:
     resource_class: large
     docker:
-      - image: cimg/go:1.18
+      - image: cimg/go:1.23
     steps:
       - checkout
       - gh/setup:
@@ -206,7 +206,7 @@ jobs:
                 -env "LATEST_VERSION=${CIRCLE_TAG}"
   security-oss:
       docker:
-          - image: cimg/go:1.18
+          - image: cimg/go:1.23
       steps:
           - checkout
           - khulnasoft-lab/scan:
@@ -216,7 +216,7 @@ jobs:
                 organization: cloud-cloud
   security-code:
       docker:
-          - image: cimg/go:1.18.3
+          - image: cimg/go:1.23.2
       steps:
           - checkout
           - khulnasoft-lab/scan:
